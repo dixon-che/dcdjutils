@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-08-03 23:06+0300\n"
+"PO-Revision-Date: 2008-08-03 23:06+0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: models.py:10
+msgid "Publishing date"
+msgstr "Дата публикации"
+
+#: models.py:11
+msgid "Title"
+msgstr "Заголовок"
+
+#: models.py:12
+msgid "Slug"
+msgstr "Короткое служебное название"
+
+#: models.py:13
+msgid "Text"
+msgstr "Текст"
+
+#: models.py:14
+msgid "Language"
+msgstr "Язык"
+
+#: models.py:25
+msgid "news article"
+msgstr "Новостийная статья"
+
+#: models.py:26
+msgid "news articles"
+msgstr "Новостийные статьи"
+
+#: templates/news/news_box.html:7
+msgid "Read More"
+msgstr "Читать далее"
+
+#: templates/news/newsarticle_archive.html:5
+msgid "Recent News"
+msgstr "Последние новости"
+
+#~ msgid "Photo"
+#~ msgstr "Фото"

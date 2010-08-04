@@ -1,0 +1,15 @@
+{% load i18n %}
+{% load thumbnail %}
+<div class='galleries'>
+
+{% for gallery in galleries %}
+<div class='gallery'>
+    <div class="title">{{ gallery.title }}</div>
+    <div class="ico">
+        <a href="{{ gallery.get_absolute_url }}"><img src='{{ gallery.ico.name|thumbnail:"width=100,height=100" }}' title='{{ gallery.title }}' /></a>{{ gallery.description|safe }}
+    </div>
+    <div class="link"><a href="{{ gallery.get_absolute_url }}">{% trans 'View gallery...' %}</a></div>
+</div>
+{% endfor %}
+
+</div>

@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load thumbnail %}
+
+{% block content %}
+<div class='gallery'>
+{% for photo in gallery.galleryphoto_set.all %}
+    <div class="photo_item" >
+        <div class="title">{{ photo.title }}</div>
+        <div class="photo">
+            <a href="{{ photo.photo.url }}" rel="lytebox[{{ gallery.slug }}]" title='{{ photo.title }}'><img src='{{ photo.photo.name|thumbnail:"width=100,height=100" }}' title='{{ photo.title }}' /></a>
+        </div>
+    </div>
+{% endfor %}
+</div>
+{% endblock %}
